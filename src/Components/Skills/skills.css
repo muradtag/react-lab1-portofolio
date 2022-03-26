@@ -1,0 +1,44 @@
+.skills {
+	background-color: rgb(42, 42, 42);
+	padding: 40px;
+}
+.skills-container {
+	display: flex;
+}
+
+.left-skills {
+	padding: 20px;
+	width: 50%;
+}
+.right-skills {
+	padding-top: 50px;
+}
+hr {
+	width: 30vw;
+}
+.white {
+	color: white;
+}
+
+.list {
+	text-decoration: none;
+	list-style: none;
+	font-size: 1.4rem;
+}
+
+.list li {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.focus {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.att {
+	color: white;
+}

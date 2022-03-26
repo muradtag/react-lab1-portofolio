@@ -1,0 +1,43 @@
+.portofolio {
+	padding: 40px;
+}
+.porto-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.category {
+	background-color: rgb(61, 61, 61);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	width: 25vw;
+	margin: 2vw 2vw;
+	height: 20vw;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.category:nth-child(even) {
+	background-color: black;
+}
+
+.category h3 {
+	font-size: 3vw;
+	text-align: center;
+}
+
+.category hr {
+	width: 60%;
+	margin-top: 5px;
+}
+
+.category:hover {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	color: black;
+	transform: scale(1.05);
+}
